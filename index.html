@@ -1,0 +1,955 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naruto Game</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <nav class="menu-fixed">
+    <div>
+      <ion-icon name="arrow-forward-outline" size='large'></ion-icon>
+    </div>
+  </nav>
+
+  <div class="menu-fixed-wrapper">
+    <ul>
+      <li>Menu 1</li>
+      <li>Menu 2</li>
+      <li>Menu 3</li>
+      <li>Menu 4</li>
+    </ul>
+    <ion-icon class="menu-fixed-close" name="arrow-back-outline" size='large'></ion-icon>
+  </div>
+
+
+  <header class="header">
+    <nav class="nav">
+
+
+      <div class="hamburguer"></div>
+
+      <div class="panel">
+        <div class="mobile-close">
+          <ion-icon size='large' name="close-sharp"></ion-icon>
+        </div>
+
+
+        <div class="panel-content">
+          <div class="logo-img">
+            <img src="/images/logo-mobile.png" alt="">
+          </div>
+
+          <form>
+            <ion-icon size='large' name="search-outline"></ion-icon>
+            <input type="search" placeholder="Procure por usuários, personagens e mais..." />
+          </form>
+
+
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="false" aria-controls="collapseOne">
+                  Usuário
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul>
+                    <li>Menu 1</li>
+                    <li>Menu 2</li>
+                    <li>Menu 3</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Personagem
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul>
+                    <li>Menu 1</li>
+                    <li>Menu 2</li>
+                    <li>Menu 3</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Academia
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul>
+                    <li>Menu 1</li>
+                    <li>Menu 2</li>
+                    <li>Menu 3</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Sensei
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse " aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul>
+                    <li>Menu 1</li>
+                    <li>Menu 2</li>
+                    <li>Menu 3</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Vila Atual
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse " aria-labelledby="headingFive"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul>
+                    <li>Menu 1</li>
+                    <li>Menu 2</li>
+                    <li>Menu 3</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Combate
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul>
+                    <li>Menu 1</li>
+                    <li>Menu 2</li>
+                    <li>Menu 3</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Equipe
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul>
+                    <li>Menu 1</li>
+                    <li>Menu 2</li>
+                    <li>Menu 3</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Organização
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul>
+                    <li>Menu 1</li>
+                    <li>Menu 2</li>
+                    <li>Menu 3</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Ranking
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul>
+                    <li>Menu 1</li>
+                    <li>Menu 2</li>
+                    <li>Menu 3</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+
+      <div class="logo">
+        <img src='/images/logo.png' alt="Naruto" />
+      </div>
+      <ul>
+        <li class="menu-dropdown">
+          <a href="#">Usuário</a>
+          <span>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </span>
+          <div class="dropdown-content">
+            <a href="#">Menu 1</a>
+            <a href="#">Menu 2</a>
+            <a href="#">Menu 3</a>
+          </div>
+        </li>
+
+        <li class="menu-dropdown">
+          <a href="#">Personagem</a>
+          <span>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </span>
+          <div class="dropdown-content">
+            <a href="#">Menu 1</a>
+            <a href="#">Menu 2</a>
+            <a href="#">Menu 3</a>
+          </div>
+        </li>
+
+        <li class="menu-dropdown">
+          <a href="#">Academia</a>
+          <span>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </span>
+          <div class="dropdown-content">
+            <a href="#">Menu 1</a>
+            <a href="#">Menu 2</a>
+            <a href="#">Menu 3</a>
+          </div>
+        </li>
+
+        <li class="menu-dropdown">
+          <a href="#">Sensei</a>
+          <span>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </span>
+          <div class="dropdown-content">
+            <a href="#">Menu 1</a>
+            <a href="#">Menu 2</a>
+            <a href="#">Menu 3</a>
+          </div>
+        </li>
+
+        <li class="menu-dropdown">
+          <a href="#">Vila Atual</a>
+          <span>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </span>
+          <div class="dropdown-content">
+            <a href="#">Menu 1</a>
+            <a href="#">Menu 2</a>
+            <a href="#">Menu 3</a>
+          </div>
+        </li>
+
+        <li class="menu-dropdown">
+          <a href="#">Combate</a>
+          <span>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </span>
+          <div class="dropdown-content">
+            <a href="#">Menu 1</a>
+            <a href="#">Menu 2</a>
+            <a href="#">Menu 3</a>
+          </div>
+        </li>
+
+        <li class="menu-dropdown">
+          <a href="#">Equipe</a>
+          <span>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </span>
+          <div class="dropdown-content">
+            <a href="#">Menu 1</a>
+            <a href="#">Menu 2</a>
+            <a href="#">Menu 3</a>
+          </div>
+        </li>
+        <li class="menu-dropdown">
+          <a href="#">Organização</a>
+          <span>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </span>
+          <div class="dropdown-content">
+            <a href="#">Menu 1</a>
+            <a href="#">Menu 2</a>
+            <a href="#">Menu 3</a>
+          </div>
+        </li>
+        <li class="menu-dropdown">
+          <a href="#">Ranking</a>
+          <span>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </span>
+          <div class="dropdown-content">
+            <a href="#">Menu 1</a>
+            <a href="#">Menu 2</a>
+            <a href="#">Menu 3</a>
+          </div>
+        </li>
+      </ul>
+      <div class="left-nav">
+        <div class="theme">
+          <img class="moon" src="/images/moon.svg" alt="">
+        </div>
+        <ion-icon name="earth" class="button-world"></ion-icon>
+        <span class="port">Português</span>
+        <div class="up-down">
+          <ion-icon class="up" name="chevron-up"></ion-icon>
+          <ion-icon class="down" name="chevron-down"></ion-icon>
+        </div>
+        <ion-icon class="button-login" name="power"></ion-icon>
+      </div>
+    </nav>
+  </header>
+  <div class="bg">
+    <img class="bg-img" src=images/bg.png alt="Naruto" />
+    <img class="naruto-img" src=images/naruto.png alt="Naruto" />
+  </div>
+
+  <div class="info-container">
+    <div class="card">
+      <div class="card-top">
+        <div class="level">
+          <span class="lvl">LVL</span>
+          <h1 class="nivel">98</h1>
+        </div>
+        <div class="specs">
+          <div class="heart specs-item">
+            <img src=images/heart.png alt="Vida" />
+            <div class="specs-info">
+              <span>10000/10000</span>
+              <span class="bar red"></span>
+            </div>
+          </div>
+
+          <div class="specs-item">
+            <img src=images/chakra.png alt="Chakra" />
+            <div class='specs-info'>
+              <span>10000/10000</span>
+              <span class="bar blue"></span>
+            </div>
+          </div>
+
+          <div class="specs-item">
+            <img src=images/stamina.png alt="Stamina" />
+            <div class='specs-info'>
+              <span>10000/10000</span>
+              <span class="bar yellow"></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span>1000/110000</span>
+          </div>
+        </div>
+
+        <div class="level next-level">
+          <span class="lvl">LVL</span>
+          <h1 class="nivel">99</h1>
+        </div>
+      </div>
+      <div class="card-bottom">
+        <div>
+          <ion-icon name="time-outline"></ion-icon>
+          <ion-icon name="time-outline"></ion-icon>
+          <ion-icon name="time-outline"></ion-icon>
+        </div>
+        <div>
+          <span>
+            <ion-icon name="time-outline"></ion-icon>
+            9999
+          </span>
+          <span>
+            <ion-icon name="time-outline"></ion-icon>
+            999.000
+          </span>
+          <ion-icon name="time-outline"></ion-icon>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="containerMain">
+    <div class="b-top">
+      <img src=images/b2.png alt="" />
+    </div>
+
+    <main class="card-wrapper">
+      <h3 style="margin-bottom: 3rem;">Escolha seu clã</h3>
+
+      <div class="swiper-container-cardCla">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/card-2.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/card-1.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/card-1.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/card-1.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/card-1.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/card-1.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/card-1.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/card-1.png" alt="">
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+
+      </div>
+
+      <h3 style="margin-top: 3rem;">Clã Uchiha</h3>
+      <p>
+        Alguns dos membros do clã ganham o poder do Sharingan, um olho
+        vermelho que tem a habilidade de copiar ninjutsus, genjutsus e
+        taijutsus com muita facilidade e armazená-los na mente para usá-los
+        quando bem entender...
+      </p>
+    </main>
+    <div class="b-bottom">
+      <img src=images/b1.png alt="" />
+    </div>
+  </div>
+
+  <div class="points-container">
+    <h2>Personalize os atributos do seu Clã</h2>
+
+    <div class="specs-points">
+      <div>
+        <label htmlFor="Genjutsu">Genjutsu</label>
+        <select name="Genjutsu" id="Genjutsu">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+
+      <div>
+        <label htmlFor="Ninjutsu">Ninjutsu</label>
+        <select name="Ninjutsu" id="Ninjutsu">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+
+      <div>
+        <label htmlFor="Agilidade">Agilidade</label>
+        <select name="Agilidade" id="Agilidade">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+
+      <div>
+        <label htmlFor="Selo">Selo</label>
+        <select name="Selo" id="Selo">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+
+      <div>
+        <label htmlFor="Resistência">Resistência</label>
+        <select name="Resistência" id="Resistência">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+
+      <div>
+        <label htmlFor="Inteligência" style="color: #ffb083;">
+          Inteligência
+        </label>
+        <select name="Inteligência" id="Inteligência">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+
+      <div>
+        <label htmlFor="Percepção" style="color: #ffb083;">
+          Percepção
+        </label>
+        <select name="Percepção" id="Percepção">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+
+      <div>
+        <label htmlFor="Concentração" style="color: #ffb083;">
+          Concentração
+        </label>
+        <select name="Concentração" id="Concentração">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+
+      <div>
+        <label htmlFor="Convicção" style="color: #ffb083;">
+          Convicção
+        </label>
+        <select name="Convicção" id="Convicção">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+
+      <div>
+        <label htmlFor="Determinação" style="color: #ffb083;">
+          Determinação
+        </label>
+        <select name="Determinação" id="Determinação">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="points">
+      <span style="color: #d37d8d;">7 pontos disponíveis</span>
+      <span style="color: #ffb083;">7 pontos disponíveis</span>
+    </div>
+    <button>Entrar no Clã</button>
+
+
+
+  </div>
+  <div class="swiper-container-cardPoints">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="points-box"
+          style="background: #fff6cc; box-shadow: 1px 1px 15px 0 rgba(0,0,0,.3 inset 0px 0px 20px 10px rgba(0,0,0,.3));">
+          <img src=images/sharigan.png alt="sharigan" />
+          <p>Sharigan Nível 1</p>
+          <div class="icons-wrapper">
+            <div>
+              <span>+3</span>
+              <img src=images/gen.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=images/target2.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=images/agi.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=/images/conv.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=images/inte.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=images/conhe.png alt="" />
+            </div>
+          </div>
+          <footer class="text-box">
+            <h3>Ser Genin</h3>
+            <h3>Ser Level 5 ou maior</h3>
+            <h3 style="color: #FF7D7D;">Ser do Cla Uchiha</h3>
+            <button>Treinar</button>
+          </footer>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="points-box">
+          <img src=images/sharigan.png alt="sharigan" />
+          <p>Sharigan Nível 1</p>
+          <div class="icons-wrapper">
+            <div>
+              <span>+3</span>
+              <img src=images/gen.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=images/target2.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=images/agi.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=/images/conv.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=images/inte.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=images/conhe.png alt="" />
+            </div>
+          </div>
+          <footer class="text-box">
+            <h3>Ser Genin</h3>
+            <h3>Ser Level 5 ou maior</h3>
+            <h3 style="color: #FF7D7D;">Ser do Cla Uchiha</h3>
+            <button>Treinar</button>
+          </footer>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="points-box">
+          <img src=images/sharigan.png alt="sharigan" />
+          <p>Sharigan Nível 1</p>
+          <div class="icons-wrapper">
+            <div>
+              <span>+3</span>
+              <img src=images/gen.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=images/target2.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=images/agi.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=/images/conv.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=images/inte.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=images/conhe.png alt="" />
+            </div>
+          </div>
+          <footer class="text-box">
+            <h3>Ser Genin</h3>
+            <h3>Ser Level 5 ou maior</h3>
+            <h3 style="color: #FF7D7D;">Ser do Cla Uchiha</h3>
+            <button>Treinar</button>
+          </footer>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="points-box">
+          <img src=images/sharigan.png alt="sharigan" />
+          <p>Sharigan Nível 1</p>
+          <div class="icons-wrapper">
+            <div>
+              <span>+3</span>
+              <img src=images/gen.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=images/target2.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=images/agi.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=/images/conv.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=images/inte.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=images/conhe.png alt="" />
+            </div>
+          </div>
+          <footer class="text-box">
+            <h3>Ser Genin</h3>
+            <h3>Ser Level 5 ou maior</h3>
+            <h3 style="color: #FF7D7D;">Ser do Cla Uchiha</h3>
+            <button>Treinar</button>
+          </footer>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="points-box">
+          <img src=images/sharigan.png alt="sharigan" />
+          <p>Sharigan Nível 1</p>
+          <div class="icons-wrapper">
+            <div>
+              <span>+3</span>
+              <img src=images/gen.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=images/target2.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=images/agi.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=/images/conv.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=images/inte.png alt="" />
+            </div>
+            <div>
+              <span>+3</span>
+              <img src=images/conhe.png alt="" />
+            </div>
+          </div>
+          <footer class="text-box">
+            <h3>Ser Genin</h3>
+            <h3>Ser Level 5 ou maior</h3>
+            <h3 style="color: #FF7D7D;">Ser do Cla Uchiha</h3>
+            <button>Treinar</button>
+          </footer>
+        </div>
+      </div>
+
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="topFooter">
+      <p>Fique conectado</p>
+      <div class="socialFooter">
+        <img src=images/twitter.png alt="twitter" />
+        <img src=images/facebook.png alt="facebook" />
+        <img src=images/youtube.png alt="youtube" />
+      </div>
+    </div>
+    <div class="subFooter">
+      <ul class="footerMenu">
+        <li>
+          <a class="hvr-underline-from-left" href="#">
+            Manual
+          </a>
+        </li>
+        <li>
+          <a class="hvr-underline-from-left" href="#">
+            Notícias
+          </a>
+        </li>
+        <li>
+          <a class="hvr-underline-from-left" href="#">
+            Ranking
+          </a>
+        </li>
+        <li>
+          <a class="hvr-underline-from-left" href="#">
+            Hall da fama
+          </a>
+        </li>
+        <li>
+          <a class="hvr-underline-from-left" href="#">
+            contato
+          </a>
+        </li>
+      </ul>
+      <p>NOSSOS JOGOS: ANIME ALL STARS GAME - CDZ GAME - DRAGON BALL </p>
+      <div class="footerFlags">
+        <a href="#">
+          <img src=images/brazil.svg alt="brazil" />
+        </a>
+        <a href="#">
+          <img src=images/usa.svg alt="usa" />
+        </a>
+      </div>
+      <p>©2021 NARUTO GAME - TODOS OS DIREITOS RESERVADOS</p>
+      <p>
+        Personagens e ilustrações originais © Copyright 2002 por Masashi
+        Kishimoto.
+      </p>
+      <ul class="footerPrivacy">
+        <li>
+          <a class="hvr-underline-from-left" href="#">
+            Termos de uso
+          </a>
+        </li>
+        <li>
+          <a class="hvr-underline-from-left" href="#">
+            Privacidade
+          </a>
+        </li>
+        <li>
+          <a class="hvr-underline-from-left" href="#">
+            Regras e punições
+          </a>
+        </li>
+        <li>
+          <a class="hvr-underline-from-left" href="#">
+            Cookie Policy
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+  </script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="/js/swiper.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>

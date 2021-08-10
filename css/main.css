@@ -1,0 +1,76 @@
+@import 'header.css';
+@import 'info-card.css';
+@import 'main-card.css';
+@import 'points.css';
+@import 'footer.css';
+@import 'menu-fixed.css';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+html {
+  width: 100vw;
+  overflow-x: hidden;
+  font-size: 62.50%;
+
+  @media (max-width: 1080px) {
+    font-size: 58.82%;
+  }
+  @media (max-width: 72rem) {
+    font-size: 55.55%;
+  }
+
+  @media (min-width: 1800px) {
+    font-size: 70%;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+ol, ul {
+  padding-left: 0rem;
+}
+
+body {
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Trebuchet MS', sans-serif !important;
+  overflow-x: hidden
+}
+
+button {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Trebuchet MS';
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-weight: 600 !important;
+}
+
+button {
+  cursor: pointer;
+}
+
+  h1, h2, h3 {
+    font-weight: 600;
+  }
+  
